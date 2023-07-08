@@ -5,6 +5,7 @@ This is a Rails API backend for tracking pizza restaurants. It allows you to man
 Ruby 
 Rails 
 SQLite3
+
 ###Getting Started
 Clone the repository:
 
@@ -89,16 +90,18 @@ json
   "restaurant_id": 1,
   "pizza_id": 1
 }
+
 ###Validations
 The RestaurantPizza model has the following validation:
 
 price must be between 1 and 30.
-###Contributing
 
+###Contributing
 Fork the repository.
 Create your feature branch (git checkout -b feature/my-feature).
 Commit your changes (git commit -am 'Add my feature').
 Push to the branch (git push origin feature/my-feature).
 Create a new Pull Request.
-License
+
+###License
 This project is licensed under the MIT License.
