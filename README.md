@@ -42,6 +42,7 @@ GET /restaurants/:id: Retrieves a specific restaurant along with its associated 
 DELETE /restaurants/:id: Deletes a specific restaurant and its associated RestaurantPizza records.
 GET /pizzas: Retrieves a collection of all pizzas.
 POST /restaurant_pizzas: Creates a new RestaurantPizza record associated with an existing Pizza and Restaurant.
+
 ###JSON Response Formats
 The API returns JSON data in the following formats:
 
